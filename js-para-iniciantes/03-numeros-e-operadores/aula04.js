@@ -11,6 +11,20 @@ if(possuiDoutorado) {
 
 // retorna Possui Graduação, mas não possui doutorado
 
+// IF abreviado
+// Não é necessário abrir e fechar as chaves {} quando retornamos apenas uma linha de código
+
+var possuiFaculdade = true;
+if(possuiFaculdade) console.log('Possui faculdade');
+else console.log('Não possui faculdade');
+
+// ou
+if(possuiFaculdade)
+  console.log('Possui faculdade');
+else
+  console.log('Não possui faculdade');
+
+  
 // TRUTHY E FALSY
 // Existem valores que retornam true e outros que retornam false quando verificados em uma expressão booleana.
 
