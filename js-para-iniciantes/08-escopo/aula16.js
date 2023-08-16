@@ -38,18 +38,18 @@ console.log(carro); // Carro
 // CONST
 // Mantém o escopo no bloco, impede a redeclaração e impede a modificação do valor da variável, evitando bugs no código.
 
-// const mes = 'Dezembro';
-// mes = 'Janeiro'; // erro, tentou modificar o valor
-// const semana; // erro, declarou sem valor
+const mes = 'Dezembro';
+mes = 'Janeiro'; // erro, tentou modificar o valor
+const semana; // erro, declarou sem valor
 
-// const data = {
-//   dia: 28,
-//   mes: 'Dezembro',
-//   ano: 2018,
-// }
+const data = {
+  dia: 28,
+  mes: 'Dezembro',
+  ano: 2018,
+}
 
-// data.dia = 29; // Funciona
-// data = 'Janeiro'; // erro
+data.dia = 29; // Funciona
+data = 'Janeiro'; // erro
 
 
 // EXERCICIO
@@ -60,11 +60,12 @@ console.log(carro); // Carro
   const marca = 'Fiat';
   let portas = 4;
 }
-console.log(cor, marca, portas);
+console.log(var, marca, portas);
 
 // Como corrigir o erro abaixo?
+
+const dois = 2;
 function somarDois(x) {
-  const dois = 2;
   return x + dois;
 }
 function dividirDois(x) {
